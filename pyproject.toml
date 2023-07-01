@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "selenium==4.10.0", "element-manager==1.0.4"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cool_gpt"
+version = "0.0.1"
+authors = [
+  { name="dipeshpal", email="dipeshpal17@gmail.com" },
+]
+description = "A Python package that can help you to generate text using ChatGPT via scraping."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dipeshpal/cool-gpt"
+"Bug Tracker" = "https://github.com/Dipeshpal/cool-gpt/issues"
